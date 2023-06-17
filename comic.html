@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/comic.css">
+  <link rel="stylesheet" href="styles/light.css" id="theme-link">
+  <title>Comic Project</title>
+</head>
+<body>
+<header>
+  <div class="nav-profile">
+    <a>Bulat Latypov</a>
+  </div>
+  <nav class="nav-links">
+    <a class="about-me-link" href="./about.html">About me</a>
+    <a class="projects-link" href="./projects.html">Projects</a>
+    <a class="media-link" href="./media.html">Media</a>
+  </nav>
+  <div class="change-theme">
+    <button id="theme-button">Change theme</button>
+  </div>
+</header>
+<main>
+  <div class="profile">
+    <div class="profile-picture">
+      <img src="pictures/avatars/BulatLatypov.jpeg" alt="Avatar">
+    </div>
+    <div class="profile-info">
+      <p>Bulat Latypov</p>
+      <p>18 year old</p>
+      <p>C/C++ developer</p>
+      <p>Innopolis student</p>
+      <p>bulat2747@gmail.com</p>
+    </div>
+  </div>
+  <div class="info">
+    <div class="info-header">
+      <button id="joke-button">Generate new Comic</button>
+    </div>
+    <div class="comic" id="comic" style="height: 0; margin: 0;">
+      <h1 id="joke"></h1>
+      <p id="joke-time"></p>
+      <img id="comic-img">
+    </div>
+  </div>
+</main>
+</body>
+<script src="scripts/theme.js"></script>
+<script src="scripts/comic.js"></script>
+</html>

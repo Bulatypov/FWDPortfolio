@@ -1,0 +1,38 @@
+* {
+    color: #E6EDF3;
+}
+body {
+     background: #0D1117;
+ }
+header {
+    background: #1a2639;
+    border-color: #0D1117;
+}
+.nav-profile {
+    border-color: #0D1117;
+}
+.nav-links a {
+    color: #E6EDF3;
+}
+.change-theme {
+    border-color: #0D1117;
+}
+#theme-button {
+    background: #1a2639;
+}
+
+.profile-picture {
+    background: #0D1117;
+}
+.profile-info {
+    background: #1a2639;
+}
+.info {
+    background: #1a2639;
+}
+.media {
+    background: #1a2639;
+}
+.info-media {
+    background: #0D1117;
+}

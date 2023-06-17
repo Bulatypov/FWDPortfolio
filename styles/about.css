@@ -1,0 +1,16 @@
+.post {
+    margin-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid gainsboro;
+}
+.last-post {
+    border: none;
+}
+.pin-post {
+    width: 95%;
+    margin-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 2px solid gainsboro;
+    border-radius:  15px;
+ }

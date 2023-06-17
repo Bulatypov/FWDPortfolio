@@ -1,0 +1,19 @@
+.post {
+    margin-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+}
+.last-post {
+     border: none;
+ }
+.post-picture {
+    width: 20%;
+}
+.post-picture img {
+    width:100%;
+}
+.post-info {
+    width: 75%;
+    margin-left: 5%;
+}
