@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is a portfolio",
+  "main": "scripts/comic.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bulatypov/FWDPortfolio.git"
+  },
+  "author": "BuLatypov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bulatypov/FWDPortfolio/issues"
+  },
+  "homepage": "https://github.com/Bulatypov/FWDPortfolio#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.2",
+    "rollup": "^3.26.0",
+    "tslib": "^2.6.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.2"
+  }
+}
